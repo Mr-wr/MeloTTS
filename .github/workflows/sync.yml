@@ -19,7 +19,7 @@ jobs:
         run: git fetch upstream  # 运行 git fetch 命令拉取更新 (yùn xíng git fetch mìng lìng lā qū gēng xìn)
 
       - name: Merge upstream changes  # 合并上游仓库更新 (hé bìng shàngyóu cāng kù gēng xìn)
-        run: git merge upstream/master  # 运行 git merge 命令合并更新 (yùn xíng git merge mìng lìng hé bìng gēng xìn)
+        run: git merge upstream/main  # 运行 git merge 命令合并更新 (yùn xíng git merge mìng lìng hé bìng gēng xìn)
 
       - name: Push changes to fork  # 推送更新到分支 (tuī sòng gēng xìn dào fēn zhī)
-        run: git push origin master  # 运行 git push 命令推送到远程仓库的 master 分支 (yùn xíng git push mìng lìng tuī sòng dào yuǎn chéng cāng kù de master fēn zhī)
+        run: git push origin main  # 运行 git push 命令推送到远程仓库的 main 分支 (yùn xíng git push mìng lìng tuī sòng dào yuǎn chéng cāng kù de master fēn zhī)
